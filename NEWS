@@ -1,0 +1,42 @@
+	   CHANGES IN phyext2 VERSION 0.0.3
+
+OTHER CHANGES
+
+    o Modified package title and description in DESCRIPTION file.
+
+
+	  
+
+ 	   CHANGES IN phyext2 VERSION 0.0.2
+
+
+NEW FEATURES
+
+    o N/A
+
+BUG FIXES
+
+    o N/A
+
+OTHER CHANGES
+
+    o Added importFrom statements to avoid 'NOTE' from
+	  'R CMD check' in r-devel version
+
+
+
+	CHANGES IN phyext2 VERSION 0.0.1
+
+
+NEW FEATURES
+
+    o Package reproduces no-longer-maintained 'phyext' package,
+	  with permission of that package's author
+
+BUG FIXES
+
+    o N/A
+
+OTHER CHANGES
+
+    o N/A
