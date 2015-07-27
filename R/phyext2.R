@@ -2467,7 +2467,8 @@ showSubNodes <- function(x)
 #-----------------------------
 
 # show
-setMethod("show","phylo4d_ext", function(object){ printphylo4(object); showSubNodes(object)})
+#!#setMethod("show","phylo4d_ext", function(object){ printphylo4(object); showSubNodes(object)}) # printphylo4 changed to print 07.27.15 to adapt to new phylobase package
+setMethod("show","phylo4d_ext", function(object){ print(object); showSubNodes(object)})
 
 setMethod("snid", signature(x="phylo4d_ext"),
   function(x) {
